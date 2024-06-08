@@ -116,6 +116,13 @@
 						"type": "text/javascript",
 						"packages": {}
 					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"packages": {},
+						"type": "text/javascript"
+					}
 				}
 			],
 			"id": "b529740e-6499-43e5-9649-6a3a6ec0ebd6",
@@ -135,7 +142,7 @@
 					},
 					{
 						"key": "api-key",
-						"value": "XU3WYuG0iquQpEcmInRJIekLuonxqRwykynMwcKxWk1fndZYaSEur5sHPJiTAPAV"
+						"value": "{{vault:ATLAS_API_KEY}}"
 					},
 					{
 						"key": "Accept",
